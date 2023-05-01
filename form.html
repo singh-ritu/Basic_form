@@ -18,7 +18,12 @@
           <p>
             Client Name :
 
-            <input type="text" name="name" placeholder="enter your name " />
+            <input
+              type="text"
+              name="name"
+              placeholder="enter your name "
+              class="box2"
+            />
           </p>
           <fieldset>
             <legend>Address:</legend>
@@ -28,28 +33,51 @@
                 type="text"
                 name="street_address"
                 placeholder="enter street address"
+                class="box2"
               />
             </p>
-
-            <p>
-              city:
-              <input type="text" name="city" placeholder="enter your city" />
-            </p>
+            <div class="address">
+              <p>
+                city:
+                <input
+                  type="text"
+                  name="city"
+                  placeholder="enter your city"
+                  class="box2"
+                />
+              </p>
+              <p>
+                state:
+                <input
+                  type="text"
+                  name="state"
+                  placeholder="enter your state"
+                  class="box2"
+                />
+              </p>
+            </div>
             <p>
               pincode:
-              <input type="number" name="pincode" />
+              <input type="number" name="pincode" class="box2" />
             </p>
           </fieldset>
           <p>
             Telephone Number:
 
-            <input type="number" name="number" />
+            <input type="number" name="number" class="box2" />
           </p>
           <p>
             Email address:
-            <input type="text" name="email" placeholder="enter your mail" />
+            <input
+              type="text"
+              name="email"
+              placeholder="enter your mail"
+              class="box2"
+            />
           </p>
-          <input type="submit" name="submit" />
+          <div class="sub">
+            <input type="submit" name="submit" id="submit_btn" />
+          </div>
         </form>
       </div>
     </div>

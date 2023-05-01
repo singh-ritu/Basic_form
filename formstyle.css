@@ -20,42 +20,35 @@ header {
   font-style: italic;
   margin-bottom: 32px;
 }
-/* .box {
-  border: 1px solid rgb(128, 116, 116);
-  border-radius: 5px;
-   background-color: rgb(220, 197, 169); 
-} */
-input[type="text"],
-input[type="email"],
-input[type="password"],
-input[type="date"],
-select,
-textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  margin: 10px;
-}
+
 fieldset {
   border: 1px solid #ccc;
 }
-input[type="submit"] {
-  background-color: rgb(115, 73, 23);
-  color: white;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  width: 100%;
-}
-/* .box {
-  resize: both;
 
-  height: 40%;
-  width: 40%;
-} */
 .box {
   display: flex;
   justify-content: center;
   margin-top: 16px;
+}
+.address {
+  display: flex;
+}
+.sub {
+  display: flex;
+  justify-content: center;
+}
+
+.box2 {
+  padding: 6px;
+  border: solid white;
+  border-radius: 6px;
+  width: 40%;
+  margin: 10px;
+}
+#submit_btn {
+  background-color: rgb(115, 73, 23);
+  border: none;
+  border-radius: 6px;
+  color: #ccc;
+  padding: 8px 16px;
 }
